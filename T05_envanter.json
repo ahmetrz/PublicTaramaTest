@@ -1,0 +1,33 @@
+{
+  "warning": "SENTETIK TEST DATA; not a real company statement.",
+  "boundaries_bytes": [
+    15728640,
+    20971520
+  ],
+  "files": [
+    {
+      "file": "T05_15728640_alti.pdf",
+      "bytes": 15728639,
+      "sha256": "2ed7e7728f343460172548af7286a70e83a9798647502c6de3392b97585b9888",
+      "purpose": "PDF byte-size boundary fixture; exact prompt sentence included"
+    },
+    {
+      "file": "T05_15728640_ustu.pdf",
+      "bytes": 15728641,
+      "sha256": "b5eec46fd801f45e46ab85f37adf98ec92a375b88a3ff7257138f405bc7595d8",
+      "purpose": "PDF byte-size boundary fixture; exact prompt sentence included"
+    },
+    {
+      "file": "T05_20971520_alti.pdf",
+      "bytes": 20971519,
+      "sha256": "7ecd0b13e14717e31c61c1974a479b897a8a52fcc7e08cb91186392247f3d59d",
+      "purpose": "PDF byte-size boundary fixture; exact prompt sentence included"
+    },
+    {
+      "file": "T05_20971520_ustu.pdf",
+      "bytes": 20971521,
+      "sha256": "91a4fbb4c4a46d960d93473ecc2788d41698c89d49057ef52c91557905cd5bee",
+      "purpose": "PDF byte-size boundary fixture; exact prompt sentence included"
+    }
+  ]
+}
