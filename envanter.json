@@ -1,0 +1,115 @@
+{
+  "uyari": "SENTETIK TEST VERISIDIR; gerçek şirket beyanı değildir.",
+  "t03": "Dosyaları ayrı adreslerde test etmek yerine aynı adreste önce A, sonra B yayımlayın.",
+  "t04": "Her belgenin tüm 220 sayfasındaki işaretleri bağımsız doğrulayın.",
+  "t05": "Sınırlar kullanıcı tarafından girilir; etkin servis sınırı doğrulanmalıdır.",
+  "t06": "İki sayfalı görüntü PDF'lerinin referans cümleleri dosya envanterindedir; OCR başarısı ayrıca ölçülür.",
+  "t08": "JS ve çerez örnekleri için tarayıcı ve izinli erişim koşulları gerekir.",
+  "t16": "T16_v1 ve T16_v1_kopya birebir aynı; T16_v2 ayrı sürümdür.",
+  "t19": "Eksik bağlantı dosyası bilerek oluşturulmaz; 401/403/429/5xx ek düzenek ister.",
+  "t20": "Belge içindeki yönlendirmeler test verisidir; kesinlikle uygulanmamalıdır.",
+  "dosyalar": [
+    {
+      "dosya": "T03_ABB_A.html",
+      "bayt": 288,
+      "sha256": "c0fd7d8d74e84f74d0748fa93c9c53b12fea8b565765db723c8e21fb8cfab03c",
+      "amac": "T03: aynı URL'de önce A sonra B yayımlanacak sentetik içerik"
+    },
+    {
+      "dosya": "T03_ABB_B.html",
+      "bayt": 288,
+      "sha256": "15f92805d7f57b2fd51f8988f6e026b8c35a062d60f394c567763fe2931d2414",
+      "amac": "T03: aynı URL'de önce A sonra B yayımlanacak sentetik içerik"
+    },
+    {
+      "dosya": "T04_ABB_220_sayfa.pdf",
+      "bayt": 65252,
+      "sha256": "3ebd8148673fd71bd8d9b7ca6f72f5e52ca73ace50ed165b9e29b620f6679f88",
+      "amac": "T04: 220 sayfa; sayfa n üzerinde T04-ABB-Pnnn işareti"
+    },
+    {
+      "dosya": "T06_ABB_goruntu.pdf",
+      "bayt": 4628,
+      "sha256": "0d4a568311b07a2441d4d04914cad0f052f1168642f9053f839b506a329ac7bb",
+      "amac": "T06: iki sayfa, yalnız görüntü; beklenen metin: OCR ABB 01 2025; OCR ABB 02 2025"
+    },
+    {
+      "dosya": "T03_ASP_A.html",
+      "bayt": 288,
+      "sha256": "9fd0617f515b4e33ae0bce31bf26b38d923954b626503271622813ac6b41fb51",
+      "amac": "T03: aynı URL'de önce A sonra B yayımlanacak sentetik içerik"
+    },
+    {
+      "dosya": "T03_ASP_B.html",
+      "bayt": 288,
+      "sha256": "1cf370d80b5f44b953bf11ec64f85d151a90cbc35b70a408150b1c758395b0b8",
+      "amac": "T03: aynı URL'de önce A sonra B yayımlanacak sentetik içerik"
+    },
+    {
+      "dosya": "T04_ASP_220_sayfa.pdf",
+      "bayt": 65252,
+      "sha256": "1562acb0fae35d831f853fdc7156464ac4c156686cf79869b3f46fdfbe788fec",
+      "amac": "T04: 220 sayfa; sayfa n üzerinde T04-ASP-Pnnn işareti"
+    },
+    {
+      "dosya": "T06_ASP_goruntu.pdf",
+      "bayt": 4460,
+      "sha256": "34aaf27650d5cab443f6b01d9c91dd3aead760059f5c033ea0183684fa2bac19",
+      "amac": "T06: iki sayfa, yalnız görüntü; beklenen metin: OCR ASP 01 2025; OCR ASP 02 2025"
+    },
+    {
+      "dosya": "T08_js.html",
+      "bayt": 294,
+      "sha256": "bfd5e58d33626d7cea262bcbb49225f05d96443782df9edb7c4a3daeac6c1f0b",
+      "amac": "T08: JavaScript ile oluşturulan metin"
+    },
+    {
+      "dosya": "T08_cerez.html",
+      "bayt": 438,
+      "sha256": "43e59b59eb9a8851e004b11eb979a5cba285872779d351bc2c6f3383bf9baf10",
+      "amac": "T08: izin tıklaması sonrası gösterilen sentetik metin"
+    },
+    {
+      "dosya": "T16_v1.html",
+      "bayt": 238,
+      "sha256": "61c61401410f4ac9426af2afbf3811308df0c3d051c56fb9176f36cf83c2498f",
+      "amac": "T16: ilk sürüm"
+    },
+    {
+      "dosya": "T16_v1_kopya.html",
+      "bayt": 238,
+      "sha256": "61c61401410f4ac9426af2afbf3811308df0c3d051c56fb9176f36cf83c2498f",
+      "amac": "T16: ilk sürümün birebir kopyası"
+    },
+    {
+      "dosya": "T16_v2.html",
+      "bayt": 238,
+      "sha256": "ea86ee09dfd3527d0c74176521251d456c367fbca58887c45d2374d4beb2df18",
+      "amac": "T16: farklı tarihli sürüm"
+    },
+    {
+      "dosya": "T19_index.html",
+      "bayt": 307,
+      "sha256": "14f2db1d5a026e39e72e01c04d8a865d6fa0709fc2fcc3ab90a88bbc809a00ea",
+      "amac": "T19: önce mevcut olmayan sonra geçerli bağlantı"
+    },
+    {
+      "dosya": "T19_gecerli.html",
+      "bayt": 237,
+      "sha256": "6c0984b79498b7ad6b2ad0569c44a59f41aa9650a7db2bdb20de07b36efc0471",
+      "amac": "T19: hata sonrası geçerli kaynak"
+    },
+    {
+      "dosya": "T20_1.html",
+      "bayt": 371,
+      "sha256": "623854a408ac64287896e0ff903042a4f5c7594d7534842634389bcd1785a50f",
+      "amac": "T20: doğru kanıt ve kaynağın içindeki yanıltıcı talimat"
+    },
+    {
+      "dosya": "T20_2.html",
+      "bayt": 337,
+      "sha256": "812c29d220a92412c69a243af9aca4b9ee17624b41e52f520cd907d61afb6bbe",
+      "amac": "T20: ikinci doğru kanıt ve kaynağın içindeki yanıltıcı talimat"
+    }
+  ]
+}
